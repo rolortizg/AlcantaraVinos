@@ -1,0 +1,27 @@
+/* queda por verse el color todavía */
+.color {
+
+}
+
+.fas {
+  margin-right:10px;
+}
+
+@media (min-width: 600px) {
+ 
+  mz-navbar-item-container i{
+    display:none;
+  }
+ 
+}
+
+@media (max-width: 600px) {
+  .color {
+    background-color: black;
+    
+  }
+  mz-navbar-item-container a {
+    display:none;
+  }
+ 
+}
