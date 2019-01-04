@@ -1,6 +1,10 @@
 /* queda por verse el color todavía */
-.color {
+body {
+  font-family: 'Raleway', sans-serif;
+}
 
+.color {
+background-color:transparent;
 }
 
 .fas {
