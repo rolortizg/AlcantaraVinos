@@ -1,6 +1,13 @@
 /* queda por verse el color todavía */
 body {
   font-family: 'Raleway', sans-serif;
+
+}
+
+mz-navbar-item-container a {
+  color:white;
+  font-size:1.3em;
+  
 }
 
 .color {
@@ -26,6 +33,7 @@ background-color:transparent;
   }
   mz-navbar-item-container a {
     display:none;
+    
   }
  
 }
