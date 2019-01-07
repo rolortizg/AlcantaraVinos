@@ -17,6 +17,7 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 
 //routes
 import {routes} from './routes';
+import { JamonComponent } from './components/jamon/jamon.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {routes} from './routes';
     HomeComponent,
     VinosComponent,
     AceitesComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    JamonComponent
   ],
   imports: [
     RouterModule.forRoot(routes),
