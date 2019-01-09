@@ -8,9 +8,20 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
+
+  navigate1(){
+    this.router.navigate(['/vinos'])
+  }
+  navigate2(){
+    this.router.navigate(['/aceites'])
+  }
+  navigate3(){
+    this.router.navigate(['/jamones'])
+  }
+
 
 }

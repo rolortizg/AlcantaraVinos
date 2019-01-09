@@ -4,7 +4,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from "@angular/router";
 import { MzNavbarModule } from 'ngx-materialize';
 import { MzParallaxModule } from 'ngx-materialize';
-import { MzCardModule } from 'ngx-materialize'
+import { MzCardModule } from 'ngx-materialize';
+import { MzButtonModule } from 'ngx-materialize';
 
 
 
@@ -33,7 +34,8 @@ import { JamonComponent } from './components/jamon/jamon.component';
     BrowserModule,
     MzNavbarModule,
     MzParallaxModule,
-    MzCardModule
+    MzCardModule,
+    MzButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
